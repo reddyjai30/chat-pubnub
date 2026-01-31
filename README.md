@@ -46,6 +46,29 @@ npm run dev
 3. Start chatting in realtime.
 4. Open a second tab or device to see presence + typing indicators.
 
+## Demo media
+Add screenshots and a short walkthrough video to these paths, then update the README if you use different names:
+
+Screenshots:
+- `docs/screenshots/login.png`
+- `docs/screenshots/chat.png`
+- `docs/screenshots/presence.png`
+
+Video:
+- `docs/demo/pulseline-demo.mp4` (or a YouTube/Vimeo link)
+
+When the files are in place, add this section below to embed them:
+
+```markdown
+### Screenshots
+![Login](docs/screenshots/login.png)
+![Chat](docs/screenshots/chat.png)
+![Presence](docs/screenshots/presence.png)
+
+### Demo video
+![Demo video](docs/demo/pulseline-demo.mp4)
+```
+
 ## PubNub message payload
 Messages are published with this shape:
 ```json
